@@ -42,4 +42,11 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: bin
-        path: bin
+        path: ./bin
+        
+    - name: Archive all artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: all
+        path: .
+
