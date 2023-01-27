@@ -42,11 +42,11 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: bin
-        path: ./bin
+        path: ./Samples/Desktop/D3D12HelloWorld/src/*/bin
         
-    - name: Archive all artifacts
-      uses: actions/upload-artifact@v3
-      with:
-        name: all
-        path: .
+#    - name: Archive all artifacts
+#      uses: actions/upload-artifact@v3
+#      with:
+#        name: all
+#        path: .
 
